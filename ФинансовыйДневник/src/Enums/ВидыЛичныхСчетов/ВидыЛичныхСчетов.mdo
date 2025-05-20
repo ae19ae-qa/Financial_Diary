@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4ba973f-4c04-4719-b900-5d1df7f7b927">
+  <producedTypes>
+    <refType typeId="c4a96edd-5ab2-4a17-9105-e28dcfc6cfcb" valueTypeId="44a88271-3bcb-490c-88c6-bfb5d2b712cb"/>
+    <listType typeId="24fb8b0d-5817-48b6-9e38-4edde368c726" valueTypeId="fbcced55-8a05-4ac8-bce2-7ba40d91a6ed"/>
+    <managerType typeId="21110a79-d483-477b-b167-b467c393e78b" valueTypeId="68e35906-43cc-49d2-9364-71a0ca2bbe37"/>
+  </producedTypes>
+  <name>ВидыЛичныхСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды личных счетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0c67357-e99a-4ca6-a064-0e5fa8f8fe93">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46a2dded-3d95-4505-b78d-fff80bcc79b4">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

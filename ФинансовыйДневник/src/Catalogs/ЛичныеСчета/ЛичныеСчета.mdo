@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4fc58fb-8a9b-4622-8eb6-dff3c65643a0">
+  <producedTypes>
+    <objectType typeId="2f2537c9-ca4f-4451-b10a-c09e493e9163" valueTypeId="d9f59b69-76b0-4ede-bac9-571d04589783"/>
+    <refType typeId="dacaacf0-b122-43cb-a24e-b474dc8fcc01" valueTypeId="cc7725c6-fb4f-4360-83e7-7f34b3a37250"/>
+    <selectionType typeId="be5dcd78-a4a4-42fc-9ee2-78a3b7d66bbd" valueTypeId="9f3914ca-90b7-4f34-adf7-04e7ee10d0c1"/>
+    <listType typeId="da28dcba-47f9-43bb-b9ff-7ddf7b78d4a7" valueTypeId="625309e7-616e-40b5-a28f-72a90fa0e61f"/>
+    <managerType typeId="68834cf1-f29e-4000-965f-ae3b1d616e94" valueTypeId="baacc4ae-da30-44a3-b4a7-3a7917eb406e"/>
+  </producedTypes>
+  <name>ЛичныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личные счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛичныеСчета.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЛичныеСчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Счет</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="14778d8a-6f92-48c1-bd3b-fa636ce4f232">
+    <name>ВидСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид счета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЛичныхСчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыЛичныхСчетов.EnumValue.Банк</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0065ed9b-0a94-455d-9e4d-b792321504e6">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Валюты.РоссийскийРубль</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

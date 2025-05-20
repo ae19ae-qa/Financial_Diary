@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebda4fc6-d8b1-475c-b7a2-264a6e99cfef">
-  <name>ЛичныеФинансы</name>
+  <name>УчетЛичныхФинансов</name>
   <synonym>
     <key>ru</key>
-    <value>Личные финансы</value>
+    <value>Учет личных финансов</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="31e60951-cf90-4218-9114-9543f5794a51"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e8a3f9c1-5870-4505-affc-fa57f7729a48"/>
@@ -15,6 +15,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Ершов Александр</vendor>
+  <version>1.0.0.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -24,7 +26,12 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.СтильНовый</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Нетология</value>
+  </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -38,4 +45,18 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <styles>Style.СтильНовый</styles>
+  <styles>Style.СтильСтандарт</styles>
+  <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ЛичныеСчета</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
+  <documents>Document.ПереводМеждуСчетами</documents>
+  <documents>Document.Покупка</documents>
+  <documents>Document.ПолучениеДохода</documents>
+  <enums>Enum.ВидыЛичныхСчетов</enums>
+  <enums>Enum.ВидыСтатейДвиженийДенежныхСредств</enums>
 </mdclass:Configuration>

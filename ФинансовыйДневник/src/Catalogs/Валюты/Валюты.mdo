@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90e324a7-e344-4825-9ea8-920302577e7f">
+  <producedTypes>
+    <objectType typeId="8152b92b-d225-4c9e-a150-373958aaf6ee" valueTypeId="ef72e81b-58f7-4b28-8d52-066ceef51d6f"/>
+    <refType typeId="bf75c6d1-7afe-4722-a12d-8976b1c754d0" valueTypeId="f362330e-a1dc-4c71-bcb1-4ab130f30a43"/>
+    <selectionType typeId="f995b109-5f05-4729-8263-e796172309da" valueTypeId="e9bd64d7-7f52-4fdf-9664-885a708aca43"/>
+    <listType typeId="5066e903-f584-4d09-9d84-a9d4f9fb3bbf" valueTypeId="c9e894fb-70b7-4cfc-862d-24e94e0e1a1e"/>
+    <managerType typeId="33ccb898-c620-4772-8e45-367daabf8c67" valueTypeId="6647fc7d-6eef-4c76-9444-59d76c2dd8a9"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Валюта</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Валюты</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1871d2f8-6498-4c99-9f2b-b2785cb4218a">
+      <name>РоссийскийРубль</name>
+      <description>Российский рубль</description>
+      <code xsi:type="core:StringValue">
+        <value>RUB</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

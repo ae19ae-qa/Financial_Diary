@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f27ef76-fd53-4970-b258-04e0950d7faa">
+  <producedTypes>
+    <objectType typeId="dc2ba733-c385-4398-ac06-af87170a20fe" valueTypeId="e54b478f-71e7-4e8e-9f9a-74aa9c1058f4"/>
+    <refType typeId="13fb1138-14af-484e-965e-f41f69539a2f" valueTypeId="9addb8a7-9f9b-4f0a-9423-d18929059326"/>
+    <selectionType typeId="717f6678-8a29-4315-93af-3b2fdf38eabb" valueTypeId="37d7db27-c3c5-47b0-9454-ae8d2e35b53c"/>
+    <listType typeId="c7b8e4df-935e-4306-8546-fe28bf42b184" valueTypeId="3bf0b26d-bc61-469c-89a4-e78f6a2a23ed"/>
+    <managerType typeId="473f43e2-6ad0-49eb-8101-56924c658418" valueTypeId="2c3d8754-f0ed-44d3-a0fa-06d2016548b0"/>
+  </producedTypes>
+  <name>СтатьиДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи движения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статья</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статьи движений</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.СтатьиДвиженияДенежныхСредств.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="97894257-534c-4737-9df7-48736981b47f">
+    <name>ВидСтатьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид статьи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСтатейДвиженийДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыСтатейДвиженийДенежныхСредств.EnumValue.Расход</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4a4bd08e-d4cc-46ea-97ea-3e44a980b78b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
