@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebda4fc6-d8b1-475c-b7a2-264a6e99cfef">
+  <name>ЛичныеФинансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личные финансы</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="31e60951-cf90-4218-9114-9543f5794a51"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e8a3f9c1-5870-4505-affc-fa57f7729a48"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1d1de797-bfa8-48bd-9996-d20dcc6fcdf3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c587b4a9-d5ad-47f9-8c74-40490c3ff6ea"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9b5814ac-4291-47fa-9d34-5f997f509ccf"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d50992b9-8672-406d-89e1-a90a8200bbcc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="b80db604-5b5c-4cec-baad-230b2ba051c9"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="158cb206-f64b-4dd1-88bf-3d29604d5a70">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
