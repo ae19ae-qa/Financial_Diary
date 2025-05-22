@@ -11,4 +11,6 @@
   <content>Catalog.ЛичныеСчета</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.СтатьиДвиженияДенежныхСредств</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>DataProcessor.ЗагрузкаКурсаВалюты</content>
 </mdclass:Subsystem>

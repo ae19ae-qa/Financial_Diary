@@ -59,4 +59,6 @@
   <documents>Document.ПолучениеДохода</documents>
   <enums>Enum.ВидыЛичныхСчетов</enums>
   <enums>Enum.ВидыСтатейДвиженийДенежныхСредств</enums>
+  <dataProcessors>DataProcessor.ЗагрузкаКурсаВалюты</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
 </mdclass:Configuration>
