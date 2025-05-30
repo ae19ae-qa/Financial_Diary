@@ -46,6 +46,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Учет</subsystems>
   <subsystems>Subsystem.Финансы</subsystems>
   <styles>Style.СтильНовый</styles>
   <styles>Style.СтильСтандарт</styles>
@@ -61,4 +62,5 @@
   <enums>Enum.ВидыСтатейДвиженийДенежныхСредств</enums>
   <dataProcessors>DataProcessor.ЗагрузкаКурсаВалюты</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
 </mdclass:Configuration>
