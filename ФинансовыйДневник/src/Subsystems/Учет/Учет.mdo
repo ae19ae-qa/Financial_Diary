@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e19f40f7-cbff-4d8b-a2cb-54a86c3b9cfb">
+  <name>Учет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.Доходы</content>
+</mdclass:Subsystem>
