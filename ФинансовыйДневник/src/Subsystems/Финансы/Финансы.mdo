@@ -10,4 +10,5 @@
   <content>Document.ПереводМеждуСчетами</content>
   <content>Document.Покупка</content>
   <content>Document.ПолучениеДохода</content>
+  <content>Report.ОтчетОДоходах</content>
 </mdclass:Subsystem>
